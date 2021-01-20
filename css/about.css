@@ -1,0 +1,140 @@
+.sidemenu-container{
+    width: 10%;
+    background-color: #0d1117;
+    float: left;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    transition: 2s;
+}
+.sidemenu-container:hover{
+    background-color: #263242;
+    padding-top: 100px;
+}
+.content-container{
+    width: 90%;
+    background-color: #06090f;
+    float: right;
+    top: 0;
+    right: 0;
+    position: fixed;
+    color: grey;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: arial, sans-serif;
+}
+.logo{
+    text-align: center;
+    padding-top: 100px;
+}
+.menu_links-container{
+    padding-left: 28px;
+    padding-top: 33px;
+    height: 1000px;
+}
+.menu_links{
+    text-decoration: none;
+    color: grey;
+}
+.menu_links:hover{
+    color: #58a6ff;
+    text-decoration: underline;
+}
+.fatlum_maliqi{
+    text-align: center;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+    color: #1d508a;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #58a6ff;
+}
+.first-hr{
+    margin-top: 100px;
+}
+hr{
+    width: 888px;
+}
+#about_content{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: arial, sans-serif;
+    margin-top: 111px;
+}
+.first-about-p_content{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+}
+.about-photos_container{
+    text-align: center;
+    width: 100%;
+}
+.fatlum-fig_left{
+    width: 33%;
+    float: left;
+    margin-left: 150px;
+}
+.photo1{
+    width: 300px;
+    height: 320px;
+}
+.photo2{
+    width: 280px;
+    height: 320px;
+}
+.fatlum-fig_right{
+    width: 33%;
+    float: right;
+    margin-right: 150px;
+}
+.education_right{
+    float:left;
+    box-sizing:border-box;
+    width:50%;
+    padding:5px;
+    min-height:200px;
+}
+.education_left{
+    float:left;
+    box-sizing:border-box;
+    width:50%;
+    padding:5px;
+    min-height:200px;
+}
+.education{
+    padding-top: 400px;
+}
+.edu-img_left{
+    padding-left: 200px;
+}       
+.edu-img_right{
+    padding-left: 200px;
+}
+footer{
+    margin-top: 666px;
+    width: 100%;
+    background-color: #141e33;
+    height: 55px;
+}
+.fb-ig-twiter{
+    width: 30px;
+    height: 30px;
+}
+.footer_left{
+    width: 44.11%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 11px;
+}
+.footer_right{
+    width: 44.11%;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 11px;
+}

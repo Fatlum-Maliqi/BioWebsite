@@ -1,0 +1,228 @@
+.sidemenu-container{
+    width: 10%;
+    background-color: #0d1117;
+    float: left;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    transition: 2s;
+}
+.sidemenu-container:hover{
+    background-color: #263242;
+    padding-top: 100px;
+}
+.content-container{
+    width: 90%;
+    background-color: #06090f;
+    float: right;
+    top: 0;
+    right: 0;
+    position: fixed;
+    color: grey;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: arial, sans-serif;
+}
+.logo{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.menu_links-container{
+    padding-left: 28px;
+    padding-top: 33px;
+    height: 100%;
+}
+.menu_links{
+    text-decoration: none;
+    color: grey;
+}
+.menu_links:hover{
+    color: #58a6ff;
+    text-decoration: underline;
+}
+.fatlum_maliqi{
+    text-align: center;
+    padding-top: 50px;
+}
+
+ .sidemenu-container{
+    width: 10%;
+    background-color: #0d1117;
+    float: left;
+    top: 0;
+    left: 0;
+    position: fixed; 
+    transition: 2s;
+}
+.sidemenu-container:hover{
+    background-color: #263242;
+    padding-top: 100px;
+}
+.content-container{
+    width: 90%;
+    background-color: #06090f;
+    float: right;
+    top: 0;
+    right: 0;
+    position: fixed;
+    color: grey;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: arial, sans-serif;
+}
+.logo{
+    text-align: center;
+    padding-top: 100px;
+}
+.menu_links-container{
+    padding-left: 28px;
+    padding-top: 33px;
+    height: 1000px;
+}
+.menu_links{
+    text-decoration: none;
+    color: grey;
+}
+.menu_links:hover{
+    color: #58a6ff;
+    text-decoration: underline;
+}
+.fatlum_maliqi{
+    text-align: center;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+    color: #1d508a;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #58a6ff;
+}
+.first-hr{
+    margin-top: 100px;
+}
+hr{
+    width: 888px;
+}
+#favorites_content{
+    margin-top: 111px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: arial, sans-serif;
+}
+.fav-images{
+    width: 275px;
+    height: 275px;
+}
+.favorite_left{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.favorite_right{
+    float: right;
+    width: 50%;
+    margin-left: none;
+}
+.favorite_one{
+    border-radius: 100px;
+    border: 2px#58a6ff solid;
+    background-color: #0d1117;
+    width: 888px;
+    height: 400px;
+    padding-right: 20px;
+    margin-top: 20px;	
+}
+.favorite_two{
+    border-radius: 100px;
+    border: 2px#58a6ff solid;
+    background-color: #0d1117;
+    width: 888px;
+    height: 400px;
+    margin-left: 250px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.favorite_three{
+    border-radius: 100px;
+    border: 2px#58a6ff solid;
+    background-color: #0d1117;
+    width: 888px;
+    height: 400px;
+    float: right;
+    padding-right: 20px;
+}
+.favorite_four{
+    border-radius: 100px;
+    border: 2px#58a6ff solid;
+    background-color: #0d1117;
+    width: 888px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 400px;
+    padding-right: 20px;
+}
+.favorite_five{
+    border-radius: 100px;
+    border: 2px #58a6ff solid;
+    background-color: #0d1117;
+    width: 888px;
+    height: 400px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.favorite_six{
+    border-radius: 100px;
+    border: 2px#58a6ff solid;
+    background-color: #0d1117;
+    width: 888px;
+    height: 400px;
+    margin-left: 250px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 666px;
+    width: 100%;
+    background-color: #141e33;
+    height: 55px;
+}
+.footer_left{
+    width: 44.11%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 11px;
+}
+.footer_right{
+    width: 44.11%;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 11px;
+}
+footer{
+    margin-top: 111px;
+    width: 100%;
+    background-color: #141e33;
+    height: 55px;
+}
+.fb-ig-twiter{
+    width: 30px;
+    height: 30px;
+}
+.footer_left{
+    width: 44.11%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 11px;
+}
+.footer_right{
+    width: 44.11%;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 11px;
+}

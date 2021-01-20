@@ -1,0 +1,368 @@
+    /* This page doesnt work in devices, with screen lower width then 310, cause this devices doesnt excist */
+    @media only screen and (max-width: 310px) {
+        *{
+            display: none;
+        }
+    }
+
+
+
+    /* Responsive code for tablets */
+    @media only screen and (max-width: 1280px) {
+        .sidemenu-container{
+            display: none;
+        }
+        .top-menu_container{
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            height: 33px;
+            background-color: #06090f;
+        }
+        .logo-img{
+            width: 25px;
+            height:25px;
+            padding-top: 5px;
+            padding-left: 33px;
+        }
+        .content-container{
+            width: 100%;
+            margin-top: 33px;
+        }
+        .top-menu_logo{
+            width: 10%;
+            float: left;
+        }
+        .top-menu-links_container{
+            width: 80%;
+            float: right;
+        }
+        .top-menu-links_container, a{
+            float: right;
+            text-decoration: none;
+            font-size: 12px;
+            color:#1d508a;
+            padding-right: 7px;
+            padding-left: 3px;
+            padding-top: 3px;
+        }
+        .logo{
+            display: none;
+        }
+        .fatlum_maliqi{
+            padding-top: 50px;
+            padding-left: 38px;
+        }
+        .fatlum_img{
+            width: 77%;
+            height: 44%;
+        }
+        .first-hr{
+            margin-top: 50px;
+        }
+        hr{
+            width: 80%;
+        }
+        #favorites_content{
+            height: auto;
+            padding-left: 0;
+            padding-right: 0;
+            margin-top: 0;
+        }
+        .fav-images{
+            width: 50%;
+            height: 50%;
+        }
+        .favorite_left{
+            float: none;
+            width: 50%;
+            text-align: center;
+            padding-left: 25%;
+        }
+        .favorite_right{
+            float: none;
+            width: 50%;
+            margin-left: none;
+            text-align: center;
+            padding-left: 25%;
+        }
+        .favorite_one{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;
+            margin-left: 12%;
+        }
+        .favorite_two{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;	
+        }
+        .favorite_three{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+            float: none;
+        }
+        .favorite_four{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+            margin-top: 0;
+        }
+        .favorite_five{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+        }
+        .favorite_six{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+        }
+        footer{
+            left: 0;
+            bottom: 0;
+            position: relative;
+            margin-top: 111px;
+            width: 100%;
+            background-color: #141e33;
+            height: 55px;
+        }
+        .fb-ig-twiter{
+            width: 20px;
+            height: 20px;
+        }
+        .footer_left{
+            width: 40%;
+            float: left;
+            padding-left: 10px;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+        .footer_right{
+            width: 40%;
+            float: right;
+            padding-right: 10px;
+            padding-bottom: 33px;
+            padding-top: 5px;
+        }
+    }    
+
+
+
+    /* Responsive code for mobile phones */
+    @media only screen and (max-width: 444px) {
+        .sidemenu-container{
+            display: none;
+        }
+        .top-menu_container{
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100%;
+            height: 33px;
+            background-color: #06090f;
+        }
+        .logo-img{
+            width: 25px;
+            height:25px;
+            padding-top: 5px;
+            padding-left: 33px;
+        }
+        .content-container{
+            width: 100%;
+            margin-top: 33px;
+        }
+        .top-menu_logo{
+            width: 10%;
+            float: left;
+        }
+        .top-menu-links_container{
+            width: 80%;
+            float: right;
+        }
+        .top-menu-links_container, a{
+            text-decoration: none;
+            text-transform: lowercase;
+            font-size: 13px;
+            padding-top: 5px;
+            color: #1d508a;
+            padding-right: 3px;
+            padding-left: 3px;
+        }
+        .logo{
+            display: none;
+        }
+        .fatlum_maliqi{
+            padding-top: 50px;
+            padding-left: 38px;
+        }
+        .fatlum_img{
+            width: 77%;
+            height: 44%;
+        }
+        h2{
+            font-size: 100%;
+        }
+        .first-hr{
+            margin-top: 50px;
+        }
+        hr{
+            width: 80%;
+        }
+        #favorites_content{
+            height: auto;
+            padding-left: 0;
+            padding-right: 0;
+            margin-top: 0;
+        }
+        .fav-images{
+            width: 50%;
+            height: 50%;
+        }
+        .favorite_left{
+            float: none;
+            width: 50%;
+            text-align: center;
+            padding-left: 25%;
+        }
+        .favorite_right{
+            float: none;
+            width: 50%;
+            margin-left: none;
+            text-align: center;
+            padding-left: 25%;
+        }
+        .favorite_one{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;
+            margin-left: 12%;
+        }
+        .favorite_two{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;	
+        }
+        .favorite_three{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+            float: none;
+        }
+        .favorite_four{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+            margin-top: 0;
+        }
+        .favorite_five{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+        }
+        .favorite_six{
+            border-radius: 100px;
+            border: 1px#58a6ff solid;
+            background-color: #0d1117;
+            width: 75%;
+            height: 75%;
+            margin-top: 20px auto;
+            font-size: 8px;	
+            margin-left: 12%;
+        }
+        footer{
+            left: 0;
+            bottom: 0;
+            position: relative;
+            margin-top: 55px;
+            width: 100%;
+            background-color: #141e33;
+            height: 55px;
+        }
+        .fb-ig-twiter{
+            width: 15px;
+            height: 15px;
+        }
+        .footer_left{
+            width: 60%;
+            float: left;
+            padding-left: 10px;
+            padding-top: 5px;
+            font-size: 10px;
+        }
+        .footer_right{
+            width: 25%;
+            float: right;
+            padding-right: 10px;
+            padding-top: 0px;
+            padding-bottom: 30px;
+        }
+        br{
+            display: none;
+        }
+    }
+
+
+
+    /* Responsive for laptops and computers */
+    /* I made this media queri just to hide one nav bar, so doesnt show both */
+    @media only screen and (min-width: 1281px) {
+        .top-menu_container{
+            display: none;
+        }
+    }
