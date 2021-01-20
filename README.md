@@ -1,0 +1,2 @@
+# BioWebsite
+Hello everyone, hope you're doing well. This is my BioWebsite, it contains something about of my life, i didn't do this kind of website to show my biography, i had to do this work in my college in the first year. This site contains 5 pages (home, about, favorites, assignments and feedback) where each of them have to external sheet linked, one for style and one is responsive code. It has 3137 code lines written, i just wanted to show my skills in front end, this is my first project, i'm not stopping till i become a let's say ProProgrammer !
